@@ -1,0 +1,69 @@
+@meta charset="UTF-8";
+
+body {
+	background-color: lightblue;
+}
+header {
+	background-color: rgb(240, 78, 35);
+	
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -21px;
+	padding: 3px;
+}
+
+main {
+	text-align: center;
+}
+
+h1{
+	color: white;
+	text-shadow: 1px 1px 1px hsla(0, 0%, 0%, .5);
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding: 10px;
+
+}
+
+#oferta {
+	color: black;
+}
+
+
+.bt {
+	display: inline-block;
+	background-color: rgb(240, 78, 35);
+	color: white;
+	font-size: 1.5em;
+
+
+	padding: 15px;
+	margin: 5px;
+	border-radius: 6px;
+	border-style: outset;
+	box-shadow: 1px 1px 1px hsla(0, 0%, 0%, .5);
+
+
+}
+
+.bt > a {
+		text-decoration: none;
+		color: white;
+
+}
+
+
+.bt:hover {
+	background-color: green;
+	font-size: 1.6em;
+	transition-duration: .3s;
+
+}
+
+.lost {
+	display: inline-block;
+	
+}
